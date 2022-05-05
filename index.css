@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight:  200, 400, 600;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+
+/* -------HEADER SECTION--------- */
+header{
+    text-align: center;
+    margin-top: 60px;
+}
+
+header h2{
+    margin: 5px;
+    font-size: 24px;
+}
+
+header .faint{
+    color:  hsl(229, 6%, 66%);
+    font-weight: normal;
+}
+
+header .bold{
+    color:  hsl(234, 12%, 34%);
+}
+
+header p{
+    width: 380px;
+    margin: auto;
+    color:  hsl(229, 6%, 66%);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 12px;
+    letter-spacing: .3PX;
+}
+
+/* ---------MAIN SECTION-------- */
+
+main .flex-container{
+    width: 80%;
+    margin: 50px auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .flex-container .item{
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 27px 27px;
+    box-shadow: 0px 8px 8px 2px   hsl(228, 10%, 90%);
+}
+
+main .flex-container .cyan{
+    border-top: 4px solid  hsl(180, 62%, 55%);
+}
+
+main .flex-container .red{
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+
+main .flex-container .orang{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+main .flex-container .blue{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+main .flex-container h4{
+    color:  hsl(234, 12%, 34%);
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+main .flex-container p{
+    display: inline-block;
+    color:  hsl(229, 6%, 66%);
+    font-size: 12px;
+    line-height: 1.5;
+    padding-right: 50px;
+}
+
+main .flex-container .image{
+    display: flex;
+    justify-content: right;
+}
+
+main .flex-container img{
+    width: 50px;
+    margin-top: 25px;
+}
+
+main .flex-body{
+    padding: 0;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .flex-body .child{
+    width: 72%;
+    margin: 11px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+    color:  hsl(240, 4%, 10%);
+}
+
+
+@media(max-width:440px){
+    /* -------HEADER SECTION--------- */
+
+    header{
+        margin-top: 90px;
+    }
+
+    header h2{
+        font-size: 30px;
+    }
+
+    header p{
+        width: 350px;
+        font-size: 18px;
+        margin-top: 19px;
+    }
+
+    /* ---------MAIN SECTION-------- */
+
+    main .flex-container{
+        width: 88%;
+        margin: 70px auto  auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .flex-container .item{
+        width: auto;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    main .flex-container h4{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    main .flex-container p{
+        font-size: 15px;
+    }
+
+    main .flex-body{
+        padding: 0;
+        width: auto;
+        display: block;
+    }
+
+    main .flex-body .child{
+        width: auto;
+        margin: auto;
+        margin: 30px auto;
+    }
+
+    footer{
+        margin-bottom: 70px;
+    }
+}
